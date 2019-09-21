@@ -25,6 +25,16 @@
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+  background-color: #1f65d6;
+  outline: none;
+}
+
+.button::-moz-focus-inner {
+  border: 0;
+}
+
 .active {
   composes: button;
   background-color: #3884ff;
@@ -36,12 +46,8 @@
   background-color: #bdbdbd;
 }
 
-.button:hover,
-.button:focus {
-  background-color: #1f65d6;
+.disabled:hover,
+.disabled:focus {
+  background-color: #bdbdbd;
   outline: none;
-}
-
-.button::-moz-focus-inner {
-  border: 0;
 }
