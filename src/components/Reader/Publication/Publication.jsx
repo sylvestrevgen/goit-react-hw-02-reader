@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Publication.module.css';
+import styles from './publication.module.css';
 
 const Publication = ({ item: { title, text } }) => {
   return (

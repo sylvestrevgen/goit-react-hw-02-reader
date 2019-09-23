@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Counter.module.css';
+import styles from './counter.module.css';
 
 const Counter = ({ index, sum }) => {
   return <p className={styles.counter}>{`${index + 1}/${sum}`}</p>;
